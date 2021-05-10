@@ -1,0 +1,88 @@
+h1 {
+  font-family: "Satisfy", cursive;
+  font-size: 35px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+small {
+  padding-top: 0;
+}
+button {
+  border-radius: 5px;
+  outline: none;
+  margin: 10px 25%;
+  display: block;
+  background-color: #dce9fa;
+  border: 1px solid #dce9fa;
+  color: #5d6f83;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 22px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+
+.form-control {
+  max-width: 75%;
+}
+
+.container {
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  max-width: 500px;
+  margin: 50px auto 50px;
+  padding-left: 50px;
+  padding-right: 0;
+}
+.border {
+  background-color: rgba(255, 255, 255, 0.418);
+  border-radius: 10px;
+  margin-right: 50px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  color: #5d6f83;
+  background: rgba(255, 255, 255, 0.315);
+  cursor: pointer;
+}
+.city-temp {
+  text-align: right;
+}
+.main-temp,
+.degree {
+  font-size: 40px;
+  font-weight: 600;
+}
+.feels-like,
+.sub-type {
+  font-size: 15px;
+  line-height: 2.7;
+}
+.sub-type {
+  font-weight: 700;
+}
+.day {
+  text-align: center;
+}
+
+.temp {
+  text-align: center;
+  font-weight: 700;
+}
+#nextDays {
+  margin-right: 10%;
+}
+#form-button {
+  padding-right: -40px;
+}

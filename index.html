@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+     
+        <form id="search-form">
+           <div class="row" >
+<div class="col-6">
+    <input type="search" class="form-control" id="city-typed" placeholder="Search City"></div>
+         <div class="col-3"><input type="submit" value="Search" class="form-control btn btn-light" id="form-button"> </form></body></div></div>
+        <div class="row">
+       <div class="col">
+        <br />
+        <div class="row">
+          <div class="col-sm border">
+        <h1 id=search-city>Syracuse</h1>
+        <small id="current-date">Friday, April 1 12:50pm</small>
+        <p><span id="weather-description">
+          Clear Sky</span>
+          <br />
+          <div class="city-temp"> <span class="main-temp">☀</span><span class="main-temp" id= "main-temp">50</span><span class="degree">°</span>  <a href="#" class="scale" id="fahrenheit">F</a> | <a
+              href="#"
+              class="scale"
+              id="celsius"
+            >
+              C</a></div>
+        </p></div>
+        
+        <div class="col-sm border">
+        <h2>High 60° | Low 40°</h2>
+        
+      <span class="feels-like">
+          Feels like: </span>
+          <span class= "sub-type">65°</span><br />
+          <span class="feels-like">Humidity: </span> <span class= "sub-type" id="humidity">50%</span><br />
+          <span class="feels-like">Wind: </span> <span class= "sub-type" id="wind">15mph</span>
+        </div></div>
+        <div class="row" id="nextDays">
+        <div class="col"><p class="day">Sat <br></p> <br><p class="temp">58°</p></div>
+       <div class="col"> <p class="day"> Sun</p> <br><p class="temp">53°</p></div>
+        <div class="col"><p class="day">Mon </p> <br><p class="temp">52°</p></div>
+        <div class="col"><p class="day"> Tues</p> <br><p class="temp">50°</p></div>
+        <div class="col"> <p class="day"> Wed </p> <br><p class="temp">48°</p></div>
+        <div class="col"> <p class="day"> Thurs</p> <br><p class="temp">30°</p></div>
+         <div class="col"><p class="day">Fri</p><br><p class="temp">20°</p></div> </div>
+        <footer><button class="current-location" id="current-location-button">Current Location</button></footer>
+     
+    </div></div></div>
+    <script src="src/index.js">
+      
+    </script>
+  </body>
+</html>

@@ -86,3 +86,7 @@ button:hover {
 #form-button {
   padding-right: -40px;
 }
+#source-code {
+  text-align: center;
+  font-size: small;
+}
